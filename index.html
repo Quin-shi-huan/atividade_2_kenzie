@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=;, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+
+<body style="padding-left: 500px; padding-right: 500px;">
+    <form>
+        <fieldset>
+            <legend><b>Receber novidades em seu e-mail</b></legend>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" id="nome" name="nomeDeUsuario" required placeholder="Seu nome aqui">
+            <br>
+            <br>
+            <label for="mail">E-mail:</label>
+            <br>
+            <input type="email" id="mail" name="emailDoUsuario" placeholder="Seu email aqui" required>
+            <br>
+            <br>
+
+            <section>
+                <label for="descrip">Oque te motivou a participar do evento?</label>
+                <br>
+                <textarea name="descricao" id="descrip" cols="30" rows="5"
+                    placeholder="Descreva aqui..."></textarea>
+            </section>
+
+            <br>
+            <label for="modes">Selecione seu Módulo</label>
+            <br>
+            <select name="modulos" id="modes">
+                <option value="" selected disabled>Escolher módulo</option>
+                <option value="mode1">M1</option>
+                <option value="mode2">M2</option>
+                <option value="mode3">M3</option>
+                <option value="mode4">M4</option>
+                <option value="mode5">M5</option>
+                <option value="mode6">M6</option>
+            </select>
+            <br>
+            <br>
+            <section>
+                <label for="passw">Cadastre uma senha</label>
+                <br>
+                <input type="password" id="passw" name="pass" required placeholder="Digite sua senha aqui...">
+                <br>
+                <br>
+                <label for="c_pass">Cofirme sua senha</label>
+                <br>
+                <input type="password" id="c_pass" name="cpass" placeholder="Confirme sua senha">
+            </section>
+            <br>
+            <section>
+                <p>Deseja receber novidades em seu E-mail?</p>
+                <label for="opti">Sim!</label>
+                <input type="radio" name="opti" required>
+                <label for="opti">Não!</label>
+                <input type="radio" name="opti" required>
+            </section>
+
+            <br>
+
+            <button type="submit">Cadastrar</button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
